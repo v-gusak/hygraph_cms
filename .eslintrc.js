@@ -19,6 +19,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    'react/jsx-no-useless-fragment': 0,
     'react/no-unescaped-entities': 0,
     '@next/next/no-page-custom-font': 0,
     'jsx-a11y/label-has-associated-control': 0,
@@ -31,7 +32,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'max-len': [
       2,
-      250,
+      280,
     ],
     'no-multiple-empty-lines': [
       'error',
