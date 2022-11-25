@@ -92,7 +92,7 @@ function CommentsForm({ slug }) {
       </div>
       {error && <p className="text-xs text-red-500">Усі поля є обов’язковими для заповнення</p>}
       <div className="mt-8">
-        <button type="button" onClick={handlePostSubmission} className="transition duration-500 ease hover:bg-indigo-900 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">Post Comment</button>
+        <button type="button" onClick={handlePostSubmission} className="transition duration-500 ease hover:bg-indigo-900 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">Залишити коментар</button>
         {showSuccessMessage && <span className="text-xl float-right font-semibold mt-3 text-green-500">Коментар надіслано на перевірку</span>}
       </div>
     </div>
